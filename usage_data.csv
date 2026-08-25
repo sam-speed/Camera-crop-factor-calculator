@@ -1,0 +1,13 @@
+timestamp,sensor_name,adapter_name,focal_length_input,focal_aperture_input,focal_length_result,focal_aperture_result,focal_aperture_equivalent,classification,bouque_ranking,new_job_clicked
+2026-08-20 14:52:36,full_frame,1,35,4.0,35.0,4.0,4.0,wide-angle,3,1
+2026-08-20 14:52:55,apsc_canon,2,9,1.2,10.2,0.9,1.3,fisheye,5,1
+2026-08-20 14:57:42,full_frame,1,35,4.0,35.0,4.0,4.0,wide-angle,3,1
+2026-08-20 15:38:21,mft,1,35,4.0,70.0,4.0,8.0,short telephoto,1,0
+2026-08-20 15:59:27,mft,2,200,4.0,284.0,2.8,5.7,super-telephoto,2,1
+2026-08-20 16:00:32,full_frame,1,35,4.0,35.0,4.0,4.0,wide-angle,3,1
+2026-08-20 16:20:18,apsc_canon,1,50,1.8,80.0,1.8,2.9,short telephoto,4,1
+2026-08-20 16:26:35,one_inch,2,35,4.0,67.8,2.8,7.7,short telephoto,1,1
+2026-08-20 16:27:08,mft,1,35,1.4,70.0,1.4,2.8,short telephoto,4,1
+2026-08-20 16:27:20,mft,1,35,1.2,70.0,1.2,2.4,short telephoto,4,1
+2026-08-20 16:34:59,apsc,5,35,4.0,105.0,8.0,12.0,telephoto lens,1,1
+2026-08-20 16:40:28,full_frame,1,35,4.0,35.0,4.0,4.0,wide-angle,3,1
