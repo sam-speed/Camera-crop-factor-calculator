@@ -15,8 +15,7 @@ def convertions(sensor_name, adapter_name, focal_length_input, focal_aperture_in
     return (focal_length_result, aperture_real, aperture_equivalent)
 
 def run():
-    ##st.image("test_foto.jpeg", use_container_width=True)
-    st.markdown("# Crop factor calculator\n")
+    st.image("banner.png", use_container_width=True)
     if "show_results" not in st.session_state:
         st.session_state.show_results = False
     if "data_saving_state" not in st.session_state:
@@ -62,7 +61,6 @@ def run():
             st.session_state.show_results = True
             st.rerun() 
     else:
-        st.balloons()
         st.toast("Your data will be saved anonymously in the app's 'Usage Data' section.")
         st.markdown("## Results:")
         st.markdown(f"### Your lens: {st.session_state.length_result}mm, f{st.session_state.aperture_result} (f{st.session_state.aperture_equivalent} full frame equivalent)")

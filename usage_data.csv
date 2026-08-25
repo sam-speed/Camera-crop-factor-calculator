@@ -11,3 +11,4 @@ timestamp,sensor_name,adapter_name,focal_length_input,focal_aperture_input,focal
 2026-08-20 16:27:20,mft,1,35,1.2,70.0,1.2,2.4,short telephoto,4,1
 2026-08-20 16:34:59,apsc,5,35,4.0,105.0,8.0,12.0,telephoto lens,1,1
 2026-08-20 16:40:28,full_frame,1,35,4.0,35.0,4.0,4.0,wide-angle,3,1
+2026-08-25 14:33:15,apsc,1,35,4.0,52.5,4.0,6.0,short telephoto,2,0
