@@ -67,7 +67,7 @@ def run():
         length_classification=classify_focal_length(st.session_state.length_result)
         st.markdown(f"### Your lens is a {length_classification} lens\n")
         ranking = aperture_ranking(st.session_state.aperture_equivalent)
-        st.markdown(f"### Your bouquet ranking is {ranking}/5")
+        st.markdown(f"### Your Low Light Ranking is {ranking}/5")
         if st.session_state.data_saving_state == False:
             st.session_state.request_timestamp = save_usage_data(st.session_state.sensor_name, st.session_state.adapter_name, st.session_state.focal_length_input, st.session_state.focal_aperture_input, st.session_state.length_result, st.session_state.aperture_result, st.session_state.aperture_equivalent, length_classification, ranking)
             st.session_state.data_saving_state = True

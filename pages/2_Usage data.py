@@ -19,7 +19,7 @@ with col2:
 
 with col3:
     bokeh_ranking = round(df["bouque_ranking"].mean(), 1)
-    st.metric("Average bokeh score", f"{bokeh_ranking} / 5")
+    st.metric("Average low light score", f"{bokeh_ranking} / 5")
 
 with col4:
     conversions = int(df["new_job_clicked"].sum())
@@ -27,17 +27,23 @@ with col4:
 
 st.divider()
 
-pie_settings = px.pie(
+lens_pie = px.pie(
         df,
         names="sensor_name",
         hole=0.5
     )
+classification_pie = px.pie(
+        df,
+        names="classification",
+        hole=0.5
+    )
+
 col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Lens type:")
-    st.plotly_chart(pie_settings, use_container_width=True)
+    st.plotly_chart(lens_pie, use_container_width=True)
 
 with col2:
     st.markdown("## Sensor type:")
-    st.plotly_chart(pie_settings, use_container_width=False)
+    st.plotly_chart(classification_pie, use_container_width=False)
